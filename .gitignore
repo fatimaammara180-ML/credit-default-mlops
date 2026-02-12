@@ -4,4 +4,6 @@ __pycache__/
 mlruns/
 models/
 data/
+mlflow.db
+desktop.ini
 *.pyc
