@@ -1,4 +1,4 @@
-import os
+"""import os
 import joblib
 import pandas as pd
 from fastapi import FastAPI
@@ -68,3 +68,17 @@ def predict(data: CustomerData):
         "default_prediction": int(prediction),
         "default_probability": float(round(probability, 4))
     }
+"""
+import os
+import joblib
+import pandas as pd
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "models", "best_model.pkl")
+
+if not os.path.exists(MODEL_PATH):
+    raise RuntimeError(f"Model file not found at {MODEL_PATH}")
+
+model = joblib.load(MODEL_PATH)
