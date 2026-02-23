@@ -1,9 +1,18 @@
+# Virtual environments
+.venv/
 venv/
-__pycache__/
-.ipynb_checkpoints/
+
+# MLflow
 mlruns/
-models/
-data/
 mlflow.db
-desktop.ini
+
+# Python cache
+__pycache__/
 *.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.DS_Store
