@@ -1,6 +1,9 @@
 import pandas as pd
 from src.data.preprocess import preprocess_data
 from src.models.train import train_model
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def main():

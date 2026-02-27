@@ -1,18 +1,25 @@
-# Virtual environments
+# Virtual environment
 .venv/
 venv/
-
-# MLflow
-mlruns/
-mlflow.db
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE
-.vscode/
+# MLflow
+mlruns/
+
+# Environment files
+.env
+
+# OS
 .DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
