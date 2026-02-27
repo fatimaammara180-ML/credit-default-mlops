@@ -177,6 +177,6 @@ Deploy to cloud infrastructure
 👩‍💻 Author
 
 Ammara Fatima
-AI/ML Student focused on Production ML Systems
+
 
 
